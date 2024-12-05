@@ -8,7 +8,7 @@
     --primary-color: #3a2620; /* Dark brown */
     --secondary-color: #aa9581; /*light brown */
     --highlight-color: #416a8e; /*blue */
-    --light-highlight-color: #7a9fc2; /*light blue */
+    --highlight-color-light: #7a9fc2; /*light blue */
 }
 
 /* Global styles */
@@ -88,7 +88,7 @@ h2 {
 }
 
 #contact .sub-heading-color {
-    color: var(--light-highlight-color);
+    color: var(--highlight-color-light);
 }
 
 #contact i {
@@ -98,7 +98,7 @@ h2 {
 }
 
 #contact .social-links i {
-    color: var(--light-highlight-color);
+    color: var(--highlight-color-light);
     font-size: 1.9rem;
     transition: color 0.3s ease-in-out;
 }
