@@ -148,11 +148,11 @@ h2 {
   align-items:center;
   }
 
-  #event-booking-button {
+  #event-booking-btn {
     display: flex;
     justify-content:center;
     
-    align-items:center;
+    align-self:center;
   }
 
 /* grid visualisation CSS for testing */
