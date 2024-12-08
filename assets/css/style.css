@@ -125,6 +125,8 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -138,34 +140,38 @@ h2 {
 
 /* Events table */
 .events-intro {
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
     width:100%;
 }
 
 #event-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-  justify-content:center;
-  align-items:center;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
   }
 
   #event-booking-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content:center;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
     
-    align-self:center;
+    -ms-flex-item-align:center;
+    
+        -ms-grid-row-align:center;
+    
+        align-self:center;
   }
-
-/* grid visualisation CSS for testing */
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 /* Media queries */
 
